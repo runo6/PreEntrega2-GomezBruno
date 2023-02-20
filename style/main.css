@@ -20,6 +20,20 @@
     color: #3D806D !important;
 }
 
+#galeria img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 black;
+}
+
+#galeria .col-lg-3{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img:hover{
+    border: 5px solid white;
+}
+
 
 /*Antiguo CSS*/
 body{
