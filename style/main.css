@@ -1,3 +1,4 @@
+/*HEADER*/
 .navbar-brand img{
     width: 250px;
     margin-left: 50px;
@@ -20,6 +21,8 @@
     color: #3D806D !important;
 }
 
+/*MAIN*/
+/*----Galería----*/
 #galeria img{
     width: 100%;
     box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 black;
@@ -34,6 +37,7 @@
     border: 5px solid white;
 }
 
+/*FOOTER*/
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
@@ -114,35 +118,6 @@ body{
     margin: 0;
 }
 
-
-/*---header---*/
-.nav-cabecera{
-    background-color: #EFEAE1;
-    padding: 10px;
-    text-align: right;
-}
-
-.nav-cabecera ul li{
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.nav-link{
-    padding: 12px;
-    text-decoration: none;
-    color: black;
-    
-}
-
-.logo img{
-    position: absolute;
-    width: 250px;
-    margin-left: 25px;
-}
-
-nav a:hover{
-    color:white
-}
 
 /*----main----*/
 /*---index---*/
@@ -241,22 +216,4 @@ section h1{
 .faq p{
     color: grey;
     margin: 5px;
-}
-
-/*---footer---*/
-.footer{
-    background-color: #EFEAE1;
-    padding: 5px;
-}
-
-.ig img{
-    position: absolute;
-    width: 30px;
-    margin: 15px 0px 0px 560px;
-}
-
-.fb img{
-    position: absolute;
-    width: 30px;
-    margin: 15px 0px 0px 615px;
 }
