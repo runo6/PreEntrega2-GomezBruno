@@ -37,6 +37,15 @@
     border: 5px solid white;
 }
 
+/*----Contacto----*/
+.bg-contacto{
+    background-image: url(https://images.unsplash.com/photo-1529485726363-95c8d62f656f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 50px;
+    }
+
 /*FOOTER*/
 .pie-pagina{
     width: 100%;
@@ -114,6 +123,8 @@
 
 /*Antiguo CSS*/
 
+
+
 /*---index---*/
 .background{
     width: 100%;
@@ -140,8 +151,9 @@
     background-color: #3D806D;
     text-align: center;
     width: 350px;
-    border-radius: 50px;    
+    border-radius: 10px;    
 }
+
 
 .display{
     display: block;
