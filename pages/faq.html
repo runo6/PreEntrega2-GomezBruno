@@ -26,17 +26,14 @@
                         <li class="nav-item">
                             <a class="nav-link active green" aria-current="page" href="../index.html">INICIO</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 GALERIA
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./galeria.html#budas">Budas</a></li>
-                                <li><a class="dropdown-item" href="./galeria.html#fuentes">Fuentes</a></li>
-                                <li><a class="dropdown-item" href="./galeria.html#sahumerios">Sahumerios</a></li>
+                                <li><a class="dropdown-item" href="./galeria.html">Budas</a></li>
+                                <li><a class="dropdown-item" href="./galeria.html">Fuentes</a></li>
+                                <li><a class="dropdown-item" href="./galeria.html">Sahumerios</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -52,25 +49,89 @@
     </header>
     <!--- FIN HEADER --->
     <!-- inicio de main -->
-    <main class="faq">
-        <section>
-        <h1 class="verde">Preguntas Frecuentes</h1>
+    <main class="m-5 p-5 bg-light d-flex align-items-center">
+        <!-- El contenedor de la categorias -->
+        <section id="principal" class="h-75 container-sm mx-auto bg-light faq-tamaño">
+            <h1 class="fs-5 text-primary text-center py-3 green">Preguntas Frecuentes</h1>
+            <!-- La primera categoria -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi bi-truck-flatbed"></i>
+                            <span class="px-3 text-info green">Envios</span>
+                        </button>
+                    </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h2 class="fs-6 fw-semibold">1. ¿Dónde está mi pedido?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">2. ¿Cúando llegará mi pedido?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">3. ¿Qué hacer si no llega mi pedido?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">4. ¿Cómo sigo el envio?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">5. ¿Cúanto tiempo se demora el envio?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- La segunda Categoria  -->
+            <div class="accordion-item my-4">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="bi bi-credit-card"></i>
+                        <span class="px-3 text-info green" >Pagos</span>  
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h2 class="fs-6 fw-semibold">1. ¿Qué metodos de pagos aceptan?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">2. ¿Puedo pagar en efectivo?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">3. ¿Aceptan transferencias?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- La tercera categoria  -->
+            <div class="accordion-item my-4">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="bi bi-arrow-return-left"></i>
+                        <span class="px-3 text-info green">Devoluciones</span>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h2 class="fs-6 fw-semibold">1. ¿Puedo devolver el producto?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">2. ¿Cúanto tiempo tengo para cambiarlo?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        <h2 class="fs-6 fw-semibold">3. ¿Puedo cancelar mi compra?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- La cuarta categoria  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="bi bi-percent"></i>
+                        <span class="px-3 text-info green">Promociones</span>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h2 class="fs-6 fw-semibold">1. ¿Si compro varias cosas hacen descuentos?</h2>
+                        <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <h2>¿Hacen envíos a todo el país?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, dignissimos? Aperiam quis quibusdam porro tenetur cum iure at saepe commodi necessitatibus et nobis iste, maiores iusto eligendi inventore quod beatae.
-        </p>
-        <h2>¿Tienen sucursales?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, dignissimos? Aperiam quis quibusdam porro tenetur cum iure at saepe commodi necessitatibus et nobis iste, maiores iusto eligendi inventore quod beatae.
-        </p>
-        <h2>¿Qué medios de pagos aceptan?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, dignissimos? Aperiam quis quibusdam porro tenetur cum iure at saepe commodi necessitatibus et nobis iste, maiores iusto eligendi inventore quod beatae.
-        </p>
-        <h2>¿Venden por mayorista?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, dignissimos? Aperiam quis quibusdam porro tenetur cum iure at saepe commodi necessitatibus et nobis iste, maiores iusto eligendi inventore quod beatae.
-        </p>
-        <h2>-otra pregunta-</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, dignissimos? Aperiam quis quibusdam porro tenetur cum iure at saepe commodi necessitatibus et nobis iste, maiores iusto eligendi inventore quod beatae.
-        </p>
     </main>
     <!-- fin de main -->
     <!--- INICIO FOOTER --->
@@ -85,24 +146,23 @@
             </div>
             <div class="box">
                 <h2>SOBRE NOSOTROS</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <p>Budas Mudras es un microemprendimiento dedicado a la venta de budas de resina, fuentes para el hogar y sahumerios artesanales.</p>
+                <p>Actualmente podes encontrarnos en redes sociales.</p>
             </div>
             <div class="box">
                 <h2>SIGUENOS</h2>
                 <div class="red-social">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-youtube"></a>
                 </div>
             </div>
         </div>
         <div class="grupo-2">
-            <small>&copy; 2021 <b>Budas Mudras</b> - Todos los Derechos Reservados</small>
+            <small>&copy; 2023 <b>Budas Mudras</b> - Todos los Derechos Reservados</small>
         </div>
     </footer>
     <!--- FIN FOOTER --->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
+

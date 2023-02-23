@@ -17,10 +17,6 @@
     padding: 25px !important;
 }
 
-.green{
-    color: #3D806D !important;
-}
-
 /*MAIN*/
 /*----Galería----*/
 #galeria img{
@@ -46,10 +42,42 @@
     padding: 50px;
     }
 
+/*----FAQ----*/
+.faq-tamaño{
+    max-width: 800px;
+}
+
+/*----Colores----*/
+.green{
+    color: #3D806D !important;
+}
+
+.white-opaque{
+    color: #EFEAE1 !important;
+}
+
+.bg-green{
+    background-color: #3D806D !important;
+}
+
+.bg-white-opaque{
+    background-color: #EFEAE1 !important;
+}
+
+.btn-primary{
+    background-color: #162f28;
+    border-color: #3D806D;
+}
+
+.btn-primary:hover{
+    background-color: #3D806D;
+    border-color: #162f28;
+}
+
 /*FOOTER*/
 .pie-pagina{
     width: 100%;
-    background-color: #0a141d;
+    background-color: #162f28;
 }
 
 .pie-pagina .grupo-1{
@@ -92,17 +120,17 @@
     height: 45px;
     line-height: 45px;
     color: white;
-    background-color: #0d2033;
+    background-color: #3D806D;
     text-align: center;
     transition: all 300ms ease;
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    color:aqua
+    color: pink
 }
 
 .pie-pagina .grupo-2{
-    background-color: #0a1a2a;
+    background-color: #3D806D;
     padding: 15px 10px;
     text-align: center;
     color: white;
@@ -119,62 +147,4 @@
         grid-gap: 30px;
         padding: 35px 0px;
     }
-}
-
-/*Antiguo CSS*/
-
-
-
-/*---index---*/
-.background{
-    width: 100%;
-}
-
-/*---nosotros---*/
-.centrado{
-    position: absolute;
-    top: 75%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-
-
-/*---contacto---*/
-.formulario{
-    position: absolute;
-    top: 75%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: #3D806D;
-    text-align: center;
-    width: 350px;
-    border-radius: 10px;    
-}
-
-
-.display{
-    display: block;
-}
-
-.btn-2{
-    background-color: white;
-    margin: 10px;
-    padding: 10px;
-    margin-left: 143px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #3D806D;
-}
-
-/*---contacto---*/
-.faq{
-    color: rgb(0, 0, 0);
-    margin: 20px;
-}
-.faq p{
-    color: grey;
-    margin: 5px;
 }
