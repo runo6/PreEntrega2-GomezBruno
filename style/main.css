@@ -17,6 +17,13 @@
     padding: 25px !important;
 }
 
+@media screen and (max-width:300px){
+    .navbar-brand img{
+        width: 200px;
+        margin: 25px;
+    }
+}
+
 /*MAIN*/
 /*----Galería----*/
 #galeria img{
@@ -41,6 +48,12 @@
     background-size: cover; /* Resize the background image to cover the entire container */
     padding: 50px;
     }
+
+@media screen and (max-width:800px){
+    .screen{
+        margin: 0px !important;
+    }
+}
 
 /*----FAQ----*/
 .faq-tamaño{
