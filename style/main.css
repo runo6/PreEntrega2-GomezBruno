@@ -60,6 +60,16 @@
     max-width: 800px;
 }
 
+@media screen and (max-width:800px){
+    .faq-tamaño{
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+    .p-5{
+        padding: 0 !important;
+    }
+}
+
 /*----Colores----*/
 .green{
     color: #3D806D !important;
