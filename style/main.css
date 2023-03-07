@@ -148,7 +148,7 @@
 }
 
 .bg-white-opaque{
-    background-color: #EFEAE1 !important;
+    background-color: rgba(239,234,225,0.3) !important;
 }
 
 .btn-primary{
